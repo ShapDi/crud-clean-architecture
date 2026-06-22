@@ -1,0 +1,7 @@
+[project]
+name = "crud-clean-architecture"
+version = "0.1.0"
+description = "CRUD backend app template"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
