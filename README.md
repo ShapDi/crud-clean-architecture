@@ -178,23 +178,6 @@ The result is a clean, technology-independent application core without the overh
 - **Описание**: Конфигурационный файл приложения
 
 
-## Запуск приложения
-
-1. Установите зависимости:
-```bash
-pip install -r requirements.txt
-```
-
-2. Инициализируйте базу данных:
-```bash
-alembic upgrade head
-```
-
-3. Запустите сервер:
-```bash
-uvicorn blogger_aggregation_system.start_server:app --reload
-```
-
 Дополнительно также присутствуют файлы конфигурации:
 - `Dockerfile` - конфигурация Docker контейнера  
 - `docker-compose.yml` - описания композиции контейнеров
@@ -223,5 +206,5 @@ uvicorn blogger_aggregation_system.start_server:app --reload
 
 - `crud_clean_architecture/api/` - API интерфейсы
 - `crud_clean_architecture/services/` - бизнес-логика
-- `crud_clean_architecture/infrastructure/` - инфрасьруктура и поддержка
+- `crud_clean_architecture/infrastructure/` - инфраструктура и поддержка
 - `tests/` - тесты, включая тесты для сервисов оценок (marks)
